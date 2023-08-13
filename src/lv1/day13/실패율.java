@@ -9,6 +9,7 @@ public class 실패율 {
             double total = 0;
             double fail = 0;
             for(int j=0;j<stages.length;j++){
+                //i보다 작으면 이미 i보다 작은단계에 머물러있으므로 실패율구할때의 total에 포함을 안해도된다.
                 if(i <= stages[j]) total++;
                 if(i == stages[j]) fail++;
             }
