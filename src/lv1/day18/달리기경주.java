@@ -15,9 +15,9 @@ public class 달리기경주 {
             //현재 자신의 등수 앞으로 교환
             map.put(players[index],index-1);
             //원래 그 등수 였던 사람은 뒤에 등수로 교환
-            map.put(players[index -1],map.get(front)+1);
-            players[index] = front;
             map.put(front,index);
+            players[index-1] = players[index];
+            players[index] = front;
 
         }
         return players;
