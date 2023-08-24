@@ -1,4 +1,4 @@
-package lv1;
+package lv1.day19;
 
 import java.util.HashMap;
 
