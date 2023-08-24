@@ -1,6 +1,4 @@
 package lv1.day20;
-
-
 import java.util.ArrayList;
 
 public class 둘만의암호 {
