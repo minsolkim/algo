@@ -13,6 +13,7 @@ public class 신고결과받기 {
         //각 id를 담는다. 초기값은 0으로 설정
         for(String id : id_list) {
             HashSet<String> set = new HashSet<String>();
+            //key: 각 유저 아이디  value : 신고한사람들 리스트
             map.put(id,set);
             resultcount.put(id,0);
         }
@@ -24,7 +25,9 @@ public class 신고결과받기 {
             //신고받은 사람
             String defend = s[1];
             HashSet<String> reporter = map.get(s[1]);
+            //신고한 사람
             reporter.add(s[0]);
+            //신고받은 사람 :key, 신고한 사람 : value
             map.put(defend,reporter);
         }
         for (String data: map.keySet()) {
