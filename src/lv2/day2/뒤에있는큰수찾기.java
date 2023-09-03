@@ -23,10 +23,8 @@ public class 뒤에있는큰수찾기 {
 
             stack.push(numbers[i]);
         }
-
         return answer;
     }
-
     public static void main(String[] args) {
         int[] numbers = {2,3,3,5};
         System.out.print(solution(numbers));
