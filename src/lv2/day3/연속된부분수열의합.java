@@ -1,7 +1,5 @@
 package lv2.day3;
 
-import java.util.ArrayList;
-
 public class 연속된부분수열의합 {
     public static int[] solution(int[] sequence, int k) {
         int start = 0;
@@ -29,7 +27,7 @@ public class 연속된부분수열의합 {
                 }
                 //길이가 제일 짧을경우
                 if (start == end) {
-                    //while문을 벗어난다. 
+                    //while문을 벗어난다.
                     break;
                 }
                 start++;
