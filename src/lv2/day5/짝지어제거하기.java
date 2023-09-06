@@ -25,7 +25,6 @@ public class 짝지어제거하기 {
 
         return answer;
     }
-
     public static void main(String[] args) {
         System.out.print(solution("baabaa"));
     }
