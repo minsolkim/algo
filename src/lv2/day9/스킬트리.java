@@ -23,7 +23,7 @@ public class 스킬트리 {
                     continue;
                 //선행스킬 이후로 후행스킬 적용
                 if (map.get(skills[j]) == skillorder) {
-                    //선행스킬이 있는경우 그다음 스킬 적용 가능 
+                    //선행스킬이 있는경우 그다음 스킬 적용 가능
                     skillorder++;
                 }else {
                     //선행스킬 전에 후행수킬을 적용할 경우
