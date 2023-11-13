@@ -11,7 +11,6 @@ public class 한줄로서기 {
         String[] input = br.readLine().split(" "); //자신보다 키큰사람이 왼쪽에 몇명 존재하는지
         solve(numberofPerson,input);
 
-
     }
     private static void solve(int numberofPerson, String[] input) {
         int[] line = new int[numberofPerson];
